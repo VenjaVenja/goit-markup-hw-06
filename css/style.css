@@ -338,6 +338,22 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* modal-form-field */
+
+.modal-form-field {
+  display: flex;
+  padding: 40px;
+}
+
+.form-titel-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titel-text-color);
+}
+
 /* portfolio buttons */
 
 .filter-list .filters {
@@ -750,7 +766,8 @@ img {
   margin-bottom: 9px;
 }
 
-.right-footer .titel {
+.right-footer .titel,
+.footer-form .titel {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
@@ -758,6 +775,46 @@ img {
   font-style: normal;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-form {
+  position: relative;
+  width: 570px;
+  margin-left: 93px;
+}
+
+.footer-form-send {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  right: 0;
+  bottom: 0;
+  margin-left: 12px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  align-items: center;
+}
+
+.send-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  margin-left: 29px;
+}
+
+.email-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
 }
 
 .socials-address {
@@ -773,7 +830,8 @@ img {
   display: flex;
 }
 
-.socials-address .titel {
+.socials-address .titel,
+.footer-form .titel {
   margin-bottom: 20px;
 }
 
