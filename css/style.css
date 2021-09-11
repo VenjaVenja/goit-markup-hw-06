@@ -932,16 +932,18 @@ img {
 
 .footer-form-send {
   display: flex;
+  align-items: center;
   position: absolute;
   width: 200px;
   height: 50px;
   right: 0;
   bottom: 0;
   margin-left: 12px;
+  padding: 0;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  align-items: center;
+  border: none;
 }
 
 .send-text {
@@ -976,6 +978,12 @@ img {
 
 .email-input:focus-within {
   outline: none;
+}
+
+.icon-send {
+  display: block;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .socials-address {
